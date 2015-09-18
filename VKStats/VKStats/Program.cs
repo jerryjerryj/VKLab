@@ -16,14 +16,14 @@ namespace VKStats
             /*string url_access = "https://oauth.vk.com/authorize?client_id=" + GETSender.AppID+ "&display=popup&scope=friends&response_type=token&v=5.37";
              System.Diagnostics.Process.Start(url_access); */
 
-            ratings.RateAudio ra = new ratings.RateAudio(new objs.User("13368791"));
+            ratings.RateAudio ra = new ratings.RateAudio(new objs.User("1"));
             Console.WriteLine(ra.getReport(10));
             /*
-            objs.UserAudio userAudio = new objs.UserAudio("13368791");
+            objs.UserAudio userAudio = new objs.UserAudio("1");
             List<string> str = userAudio.getArtists();*/
             //System.IO.File.WriteAllText("log.html", str);
             /*
-            objs.UserFriends userFriends = new objs.UserFriends("13368791");
+            objs.UserFriends userFriends = new objs.UserFriends("1");
             List<string> friends = userFriends.getFriends();
             foreach (string friend_id in friends)
                 Console.Write(friend_id + " ");*/
