@@ -8,8 +8,8 @@ namespace VKStats
 {
     class GETSender
     {
-        public static string AppID = "5071996";
-        private static string access_token = "a005ac57444ec5f3270ca238f648e8ba095127531b297b94883c4df8249067f76c1995a5c94a514d7537a";
+        public static string AppID = "";
+        private static string access_token = "";
         private string makeURLForAPI(string method_name, string parameters)
         {
             return "https://api.vk.com/method/" + method_name + ".xml?" + parameters + "&access_token="+access_token;
