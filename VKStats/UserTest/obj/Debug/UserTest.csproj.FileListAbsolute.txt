@@ -1,0 +1,7 @@
+C:\My_Pro\VKStats\UserTest\bin\Debug\UserTest.dll
+C:\My_Pro\VKStats\UserTest\bin\Debug\UserTest.pdb
+C:\My_Pro\VKStats\UserTest\bin\Debug\VKStats.exe
+C:\My_Pro\VKStats\UserTest\bin\Debug\VKStats.pdb
+C:\My_Pro\VKStats\UserTest\obj\Debug\UserTest.csprojResolveAssemblyReference.cache
+C:\My_Pro\VKStats\UserTest\obj\Debug\UserTest.dll
+C:\My_Pro\VKStats\UserTest\obj\Debug\UserTest.pdb

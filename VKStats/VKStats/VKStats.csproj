@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\packages\MySql.Data.6.9.8\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,17 +44,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="objs\UserFriends.cs" />
-    <Compile Include="objs\UserAudio.cs" />
-    <Compile Include="objs\User.cs" />
-    <Compile Include="ratings\Counter.cs" />
-    <Compile Include="ratings\RateAudio.cs" />
-    <Compile Include="senders\GETSender.cs" />
+    <Compile Include="DataBase\Controllers\ArtistsController.cs" />
+    <Compile Include="DataBase\Controllers\CountsController.cs" />
+    <Compile Include="DataBase\Controllers\UsersController.cs" />
+    <Compile Include="DataBase\DBEntity.cs" />
+    <Compile Include="DataBase\Models\UserModel.cs" />
+    <Compile Include="DataBase\QueryExecutors\Inserter.cs" />
+    <Compile Include="DataBase\QueryExecutors\QueryExecutor.cs" />
+    <Compile Include="DataBase\QueryExecutors\Selector.cs" />
+    <Compile Include="Updates\Connector.cs" />
+    <Compile Include="Senders\FriendsQuery.cs" />
+    <Compile Include="Senders\ArtistsQuery.cs" />
+    <Compile Include="Objs\User.cs" />
+    <Compile Include="Ratings\Reporter.cs" />
+    <Compile Include="Ratings\Collector.cs" />
+    <Compile Include="Senders\ApiQuery.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Senders\UserQuery.cs" />
+    <Compile Include="Updates\DailyUpdate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,6 +5,13 @@ using System.Text;
 using System.Web;
 using System.Net;
 using System.Threading.Tasks;
+using VKStats.Ratings;
+using VKStats.Updates;
+
+// TODO parse with XPath or JsonNET
+// TODO catch VkApi Errors. 
+
+
 namespace VKStats
 {
     class Program
@@ -12,10 +19,20 @@ namespace VKStats
        
         static void Main(string[] args)
         {
-            // PERMITION FOR ACCESS
-            /*string url_access = "https://oauth.vk.com/authorize?client_id=" + GETSender.AppID+ "&display=popup&scope=friends&response_type=token&v=5.37";
-             System.Diagnostics.Process.Start(url_access); */
+           //    PERMITION FOR ACCESS
+            //string url_access = "https://oauth.vk.com/authorize?client_id=" + ApiQuery.AppID + "&display=popup&scope=audio&response_type=token&v=5.37";
+            //System.Diagnostics.Process.Start(url_access);
+            //return;
 
+            //string userId = "13368791";
+            //var audioRatings = new Collector(userId);
+            //string report = audioRatings.GetReport(userId, 30);
+            //Console.WriteLine(report);
+
+<<<<<<< HEAD
+            var dUpdate = new DailyUpdate();
+            dUpdate.Start();
+=======
             ratings.RateAudio ra = new ratings.RateAudio(new objs.User("1"));
             Console.WriteLine(ra.getReport(10));
             /*
@@ -32,6 +49,7 @@ namespace VKStats
             {
                 Console.Write(str);
             }*/
+>>>>>>> origin/master
             Console.Read();
         }
     }
