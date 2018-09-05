@@ -1,7 +1,0 @@
-C:\My_Pro\VKStats\VKStats\bin\Debug\VKStats.exe.config
-C:\My_Pro\VKStats\VKStats\bin\Debug\VKStats.exe
-C:\My_Pro\VKStats\VKStats\bin\Debug\VKStats.pdb
-C:\My_Pro\VKStats\VKStats\obj\Debug\VKStats.exe
-C:\My_Pro\VKStats\VKStats\obj\Debug\VKStats.pdb
-C:\My_Pro\VKStats\VKStats\obj\Debug\VKStats.csprojResolveAssemblyReference.cache
-C:\My_Pro\VKStats\VKStats\bin\Debug\MySql.Data.dll

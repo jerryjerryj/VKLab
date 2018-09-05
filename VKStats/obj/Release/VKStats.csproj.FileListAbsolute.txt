@@ -1,0 +1,9 @@
+C:\My_Pro\VKStatsServices\VKStats.new\VKStats\bin\Release\VKStats.exe.config
+C:\My_Pro\VKStatsServices\VKStats.new\VKStats\bin\Release\VKStats.exe
+C:\My_Pro\VKStatsServices\VKStats.new\VKStats\bin\Release\VKStats.pdb
+C:\My_Pro\VKStatsServices\VKStats.new\VKStats\bin\Release\Dapper.dll
+C:\My_Pro\VKStatsServices\VKStats.new\VKStats\bin\Release\MySql.Data.dll
+C:\My_Pro\VKStatsServices\VKStats.new\VKStats\bin\Release\Dapper.pdb
+C:\My_Pro\VKStatsServices\VKStats.new\VKStats\bin\Release\Dapper.xml
+C:\My_Pro\VKStatsServices\VKStats.new\VKStats\obj\Release\VKStats.exe
+C:\My_Pro\VKStatsServices\VKStats.new\VKStats\obj\Release\VKStats.pdb
